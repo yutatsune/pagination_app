@@ -1,7 +1,7 @@
 require "faker"
 Faker::Config.locale = :ja
 
-1.upto(100) do |i|
+1.upto(50) do |i|
   Post.create!(body: "投稿_#{i}")
 end
 
